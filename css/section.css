@@ -22,6 +22,7 @@
 
 .section__paragraph{
     line-height: 1.5;
+    text-align: justify;
 }
 
 .section__button{
