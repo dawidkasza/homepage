@@ -40,3 +40,19 @@
     border-radius: 25%;
     margin-bottom: 10;
 }
+
+.section__link{
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    margin: auto 15px;
+    text-align: center;
+}
+
+.section__link:hover{
+    color: darkred;
+}
+
+.section__link:active{
+    color: #dd0000;
+}

@@ -9,6 +9,11 @@ html {
 
     color: black;
     margin: 0;
+    background-image: url("../image/background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .body--dark{
