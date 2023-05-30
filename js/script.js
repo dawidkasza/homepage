@@ -1,4 +1,4 @@
-console.log("Hello World!");
+console.log("Hello World! Nadszedł w końcu czas na zabawę z gitem.");
 
 let changeColorButton = document.querySelector(".js-changeColorButton");
 let body = document.documentElement;
