@@ -1,0 +1,16 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+.body{
+
+    color: black;
+    margin: 0;
+}
+
+.body--dark{
+    background-color: rgb(94, 94, 94)
+}

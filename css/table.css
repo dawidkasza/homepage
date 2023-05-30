@@ -1,0 +1,41 @@
+.table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table__cell{
+    padding: 15px;
+    text-align: center;
+    border: 1px solid rgb(94, 94, 94);
+}
+
+.table__cell--header{
+    background-color: darkred;
+    color: white;
+    font-weight: normal;
+}
+
+.table__cell--header:hover{
+    background-color: #dd0000;
+    color: white;
+    font-weight: normal;
+}
+
+.table__row{
+    background-color: white;
+}
+
+.table__row:nth-child(even){
+    background-color: #eee;
+}
+
+.table__row:hover{
+    background-color: #ddd;
+}
+
+.table__caption{
+    text-align: right;
+    caption-side: bottom;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
