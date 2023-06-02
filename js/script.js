@@ -1,9 +1,23 @@
-console.log("Hello World! Nadszedł w końcu czas na zabawę z gitem.");
+{
+const welcome = () => {
+    console.log("Hello World! Nadszedł w końcu czas na zabawę z gitem.");
+};
 
-let changeColorButton = document.querySelector(".js-changeColorButton");
-let body = document.documentElement;
-let colorName = document.querySelector(".js-colorName");
-changeColorButton.addEventListener("click", ()=>{
+const toggleBackground = () => {
+    const body = document.documentElement;
+    const colorName = document.querySelector(".js-colorName");
+
     body.classList.toggle("body--dark");
     colorName.innerText = body.classList.contains("body--dark") ? "jasny":"ciemny";
-})
+    
+};
+
+const init = () => {
+    const changeColorButton = document.querySelector(".js-changeColorButton");
+    changeColorButton.addEventListener("click", toggleBackground);
+
+    welcome();
+    };
+
+    init();
+}
